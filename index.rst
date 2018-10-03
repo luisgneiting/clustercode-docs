@@ -10,19 +10,9 @@ Welcome to Clustercode's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+Latest and stable version
+=========================
 
+This documentation is now version-dependant. Latest points to the next release, which is currently a WIP.
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-Config
-======
-
-.. csv-table:: Config Options
-   :header: "Key", "Default", "Values", "Description"
-
-   MY_KEY, ``test``, "``no``, ``yes``", testing a table
+However, you can switch to the older 1.3 release in the meantime.
