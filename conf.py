@@ -24,9 +24,9 @@ copyright = '2018, ccremer'
 author = 'ccremer'
 
 # The short X.Y version
-version = ''
+version = '1.3'
 # The full version, including alpha/beta/rc tags
-release = '1.3'
+release = 'release-1.3'
 
 
 # -- General configuration ---------------------------------------------------
@@ -74,7 +74,7 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -109,7 +109,7 @@ htmlhelp_basename = 'Clustercodedoc'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
-    # 'papersize': 'letterpaper',
+    'papersize': 'a4paper',
 
     # The font size ('10pt', '11pt' or '12pt').
     #
