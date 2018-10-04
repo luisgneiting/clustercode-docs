@@ -8,4 +8,5 @@ Settings
     encoder
     cluster
     cleanup
+    constraints
     api
