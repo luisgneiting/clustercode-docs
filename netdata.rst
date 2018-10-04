@@ -19,6 +19,8 @@ Installation
     installing ``nodejs``.
 #.  On your netdata server, execute:
 
+    .. code-block:: awk
+
         wget https://github.com/ccremer/netdata/raw/clustercode/node.d/clustercode.node.js -O /usr/libexec/netdata/node.d/clustercode.node.js
 
 #.  Open your editor (nano, vim, gedit, etc) and create
@@ -46,7 +48,7 @@ Installation
     editor and append the following section before the last closing tag }; at
     the end of the file:
 
-    .. code-block:: json
+    .. code-block:: awk
 
         'clustercode.progress.percentage': {
             valueRange: "[0, 100]"
