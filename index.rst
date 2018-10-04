@@ -16,6 +16,7 @@ Welcome to Clustercode's documentation!
 
    installation
    netdata
+   upgrading
    settings/storage.rst
 
 Overview
@@ -63,4 +64,3 @@ The procedure in detail
 The state machine of a node should help understanding it.
 
 .. image:: _static/statemachine.png
-
