@@ -6,4 +6,5 @@ Settings
     storage
     scan
     encoder
+    cluster
     cleanup
