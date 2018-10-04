@@ -8,3 +8,4 @@ Settings
     encoder
     cluster
     cleanup
+    api
