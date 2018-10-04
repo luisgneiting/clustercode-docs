@@ -18,6 +18,7 @@ Welcome to Clustercode's documentation!
    netdata
    upgrading
    settings/storage.rst
+   settings/cleanup.rst
 
 Overview
 ========
