@@ -17,8 +17,10 @@ Welcome to Clustercode's documentation!
    installation
    netdata
    upgrading
-   settings/storage.rst
-   settings/cleanup.rst
+   settings/storage
+   settings/scan
+   settings/encoder
+   settings/cleanup
 
 Overview
 ========
