@@ -1,8 +1,8 @@
 Cleanup Settings
-^^^^^^^^^^^^^^^^
+----------------
 
 Variables
-*********
+^^^^^^^^^
 
 .. csv-table::
    :header: "Key", "Type", "Default", "Description"
@@ -14,21 +14,21 @@ Variables
     CC_CLEANUP_MARK_SOURCE_DIR,	String, ``/input/done``, The directory in which the done files will be created.
 
 Enabled Cleanup Strategies
-**************************
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Specify a space-separated list of strategies that should be applied after
 encoding. You should specify at least ``MARK_SOURC`` and ``UNIFIED_OUTPUT``,
 otherwise clustercode will not behave as you'd expect.
 
 Overwrite
-*********
+^^^^^^^^^
 
 This flag controls whether existing files should be overwritten. If set to
 ``false``, a timestamp in the form of ``yyyy-MM-dd.HH-mm-ss`` will be added
 before the file extension.
 
 Cleanup Strategies
-******************
+^^^^^^^^^^^^^^^^^^
 
 Unified Output Directory
 """"""""""""""""""""""""

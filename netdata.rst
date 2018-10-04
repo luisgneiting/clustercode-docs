@@ -1,8 +1,8 @@
 Netdata
-^^^^^^^
+-------
 
 Overview
-********
+^^^^^^^^
 
 Clustercode 1.1 has a netdata plugin which gets the percentage, fps and bitrate
 of the current conversion progress. **This plugin works only with ffmpeg-based
@@ -10,16 +10,15 @@ nodes!**
 
 .. image:: _static/netdata.png
 
-
 Installation
-************
+^^^^^^^^^^^^
 
 #.  Install netdata according to their instructions.
 #.  Install nodejs. If you package manager complains about legacy ``node``, try
     installing ``nodejs``.
 #.  On your netdata server, execute:
 
-    .. code-block:: awk
+    .. code-block:: none
 
         wget https://github.com/ccremer/netdata/raw/clustercode/node.d/clustercode.node.js -O /usr/libexec/netdata/node.d/clustercode.node.js
 
@@ -48,7 +47,7 @@ Installation
     editor and append the following section before the last closing tag }; at
     the end of the file:
 
-    .. code-block:: awk
+    .. code-block:: none
 
         'clustercode.progress.percentage': {
             valueRange: "[0, 100]"

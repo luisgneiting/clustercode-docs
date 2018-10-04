@@ -2,13 +2,13 @@ Installation Methods
 ====================
 
 Docker & ffmpeg
-^^^^^^^^^^^^^^^
+---------------
 
 The Alpine-based image is available on
 `Docker Hub <https://hub.docker.com/r/braindoctor/clustercode/>`_.
 
 Windows & Handbrake
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 #.  Download the windows-zip from the Releases page.
 #.  Extract the contents to a folder of your choice, but leave the structure

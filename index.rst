@@ -9,18 +9,15 @@ Welcome to Clustercode's documentation!
 .. image:: _static/webui.png
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :caption: Contents
    :numbered:
    :hidden:
+   :includehidden:
 
    installation
    netdata
    upgrading
-   settings/storage
-   settings/scan
-   settings/encoder
-   settings/cleanup
+   settings/settings
 
 Overview
 ========
@@ -33,7 +30,7 @@ ones processing it.
 
 
 The procedure in detail
-^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 
 #.  Start up the node and connect to a cluster. If the node is the first in the
     cluster, it will become master. Though that doesn't affect media selection
