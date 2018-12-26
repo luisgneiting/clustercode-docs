@@ -13,3 +13,4 @@ This is the repository containing the documentation for Clustercode.
 
     make html
 
+## Test mirroring
