@@ -14,10 +14,8 @@ Welcome to Clustercode's documentation!
    :hidden:
    :includehidden:
 
-   installation
-   netdata
-   upgrading
-   settings/settings
+    explanation/chapter
+    reference/chapter
 
 Overview
 ========
@@ -29,38 +27,16 @@ ones processing it.
 .. image:: _static/overview.png
 
 
-The procedure in detail
------------------------
+This documentation
+------------------
 
-#.  Start up the node and connect to a cluster. If the node is the first in the
-    cluster, it will become master. Though that doesn't affect media selection
-    or encoding.
+There are 4 major sections:
 
-#.  Scan the ``input storage``. In this directory are the media sources located
-    in a special pattern. More on that later.
-
-#.  One of:
-
-    a)  Select a media file. If the media is already processed, it won't be
-        picked again.
-    b)  Wait a few minutes in case no media has been found and go back to step
-        ``2``.
-
-#.  Check if any constraints would prevent this media selection.
-
-#.  Select a profile that matches the media. A profile contains the information
-    on how to encode the media file. Basically they are ``ffmpeg`` options.
-
-#.  Ask the cluster if the selected media is already being converted. It it is,
-    go back to step ``3a``.
-
-#.  Encode the selected media using ``ffmpeg`` in a temporary folder.
-
-#.  Perform a cleanup according to the selected cleanup strategy. Move the file
-    to the output storage.
-
-#.  Go back to step ``2``.
-
-The state machine of a node should help understanding it.
-
-.. image:: _static/statemachine.png
+* Tutorial
+    Shows some simple tasks to get started with clustercode 2.0
+* How-to
+    Covers some very specific use-cases that you might have
+* Explanation
+    Explains in-depth the architecture and decisions behind clustercode
+* Reference
+    The configuration and usage reference

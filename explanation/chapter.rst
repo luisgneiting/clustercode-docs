@@ -1,0 +1,7 @@
+Explanation
+===========
+
+.. toctree::
+
+    requirements
+    architecture

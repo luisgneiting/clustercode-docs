@@ -24,9 +24,9 @@ copyright = '2018, ccremer'
 author = 'ccremer'
 
 # The short X.Y version
-version = '1.3'
+version = '2.0'
 # The full version, including alpha/beta/rc tags
-release = '1.3'
+release = '2.0'
 
 
 # -- General configuration ---------------------------------------------------
